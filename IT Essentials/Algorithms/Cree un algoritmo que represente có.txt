@@ -1,0 +1,30 @@
+*Cree un algoritmo que represente cómo prepararse para un examen importante. Debe incluir una lista de actividades (leer, repasar, practicar), condiciones como si ya entendió la materia, o si tiene dudas, y un ciclo que se repita hasta sentirse listo
+1. Elijo la materia a estudiar
+	1. Veo de que materia tengo el siguiente examen
+	2. Si el examen es matemáticas:
+		1. Elijo matemáticas
+
+	3. Sino, si el examen es de español:
+		1. Elijo español
+
+	4. Sino, Si el examen es ciencias
+		1. Elijo ciencias
+
+2. Saco el material de donde estudiar
+	1. Busco el cuaderno y libro de la materia
+	2. Busco las páginas de los temas del examen
+
+3. Leo el material del tema
+	1. Mientras no haya terminado de leer los temas
+		1. Seguiré leyendo el cuaderno y libro
+
+4. Práctico el material del tema
+	1. Si respondo menos o igual a 5 preguntas de 10
+		1. Repaso la materia
+
+	2. Sino:
+		Continuo 
+
+5. Guardo el material
+6. Termino de estudiar
+7. Fin

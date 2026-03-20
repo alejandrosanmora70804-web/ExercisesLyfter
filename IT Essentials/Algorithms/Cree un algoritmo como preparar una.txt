@@ -1,0 +1,34 @@
+*Cree un algoritmo como preparar una fiesta sorpresa para un amigo o familiar. Considere si la persona está en casa o no, si los invitados ya llegaron o no, qué hacer mientras esperan, y cómo finaliza la fiesta
+1. Elegir el lugar de la fiesta sorpresa
+	1. Si la persona va a estar todo el día en la casa:
+		2: Elegir otro lugar y decir que nos acompañe un momento
+	2. Sino:
+		1. Pedirle que salgo un rato de la casa o mandarlo a hacer un mandado
+
+2. Hacer la lista de invitado
+	1. En una hoja apuntamos los nombres de la personas que queremos invitar
+	2. Llamamos a esas personas para saber si pueden estar para el día de la fiesta sorpresa
+	3. Si la persona vive en la casa:
+		1. Le preguntamos si va a estar en la casa al momento de la fiesta sorpresa
+		2. Si va a estar:
+			1. LO confirmamos en la lista
+		3. Sino:
+			1. LO tachamos de la lista
+	4. Sino:
+		1. Le preguntamos se puede asistir a la fiesta sorpresa
+		2. si puede:
+			1. Lo confirmamos en la lista
+		3. Sino:
+			1. Lo tachamos de la lista
+
+3. Esperar al celebrado
+	1. Cuando estén todos los invitados 
+	2. Mientras el festejado no llega:
+		1. Comemos y hablamos
+
+	3. Cuando el festejado esté a punto de llegar
+		1. Nos escondemos
+
+4. El festejado entra
+5. Salimos a sorprenderlo
+6. Fin
