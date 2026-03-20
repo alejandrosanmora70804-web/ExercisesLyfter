@@ -1,0 +1,37 @@
+*Cree un algoritmo para ver un video en YouTube. Sea lo más especifico posible.
+1. Buscamos un dispositivo electrónico
+	1. Si tenemos una computadora:
+		1. Usamos la computadora
+
+	2. Sino, si tenemos una celular o tablet o Smart TV:
+		1. Usamos uno de esos
+	
+	3. Sino: 
+		1. le pedimos a alguien que nos preste uno de los anteriores dispositivos
+		2. Usamos el dispositivo prestado
+
+2. Encendemos el dispositivo
+	1. Si el dispositivo enciende:
+		1. Continuamos
+
+	2. Sino:
+		1. Lo ponemos a cargar
+		2. Cuando esté cargado continuamos
+
+3. Buscamos la aplicación YouTube
+	1. Si la aplicación está instalada:
+		1. Entramos en ella
+
+	2. Sino:
+		1. La descargamos
+		2. Cuando esté descargada continuamos
+
+4. Elegimos el video que queremos ver
+	1. Si buscamos en el buscador el video:
+		1. Elegimos una de las opciones de búsqueda
+	
+	2. Sino:
+		1. Elegimos uno de los primero videos que aparezcan
+		
+5. Reproducimos el video que elegimos
+6. Fin

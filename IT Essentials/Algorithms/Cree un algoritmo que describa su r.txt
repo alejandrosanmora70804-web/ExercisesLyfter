@@ -1,0 +1,122 @@
+*Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+1. Me despierto
+2. Me levanto de la cama
+	1. Tiendo la cama
+
+3. Me lavo los dientes
+	1. Me dirijo al baño
+	2. Busco cepillo y pasta dental
+	3. Mientras mis dientes sigan sucios:
+		1. Sigo lavando mis dientes
+
+	4.Me enjuago la boca y me la seco
+
+4. Me baño
+	1. Busco el paño
+	2. Abro la cortina del baño
+	3. Me mojo
+	4. Me enjabono
+	5. Mientras siga sucio:
+		1. sigo bañándome
+
+	6. Me quito el jabón
+	7. Abro la cortina del baño
+	8. Me seco con el paño y me cubro con el
+	9. Salgo del baño a mi cuarto
+
+5. Me alisto
+	1. Busco la ropa que me voy a poner
+	2. Me quito el paño
+	3. Me coloco la ropa
+	4. Me coloco desodorante y colonia
+	5. Me pongo los zapatos
+
+6. Desayuno
+	1. Me dirijo a la cocina
+	2. Busco algo de desayunar
+	3. Si hay cereal o pinto con huevo o tostadas:
+		1. Como alguna de ellas
+	
+	4. sino:
+		1. Desayuno en la universidad
+
+7. Me lavo los dientes
+	1. Si desayuné:
+		1. Me dirijo al baño
+		2. Busco cepillo y pasta dental
+		3. Mientras mis dientes sigan sucios:
+			1. Sigo lavando mis dientes
+
+		4.Me enjuago la boca y me la seco
+
+	2. Sino:
+		1. Continuo
+
+8. Voy a la universidad
+	1. Pido un Uber
+
+9. Voy a la clase
+10. Salgo de la clase
+11. Almuerzo
+	1. Me dirijo a la soda de la universidad
+	2. Veo el menú
+	3. Si veo algo que me guste:
+		1. Pido eso
+
+	4. Sino, mando a pedir comida por uber:
+		1. Como eso
+
+	5. Sino:
+		1. Como en la casa
+
+12. Me lavo los dientes
+	1. Si almorcé:
+		1. Me dirijo al baño
+		2. Busco cepillo y pasta dental
+		3. Mientras mis dientes sigan sucios:
+			1. Sigo lavando mis dientes
+
+		4.Me enjuago la boca y me la seco
+
+	2. Sino:
+		1. Continuo
+	
+13. Voy a la casa
+	1. Pido un uber
+
+14. Hago trabajos
+	1. Si tengo algún trabajo que hacer:
+		1. Lo hago
+
+	2. Sino:
+		1. Continuo
+
+15. Ceno
+	1. Espero a que sirvan la comida
+	2. ceno
+
+16. Me lavo los dientes
+	1. Si cené:
+		1. Me dirijo al baño
+		2. Busco cepillo y pasta dental
+		3. Mientras mis dientes sigan sucios:
+			1. Sigo lavando mis dientes
+
+		4.Me enjuago la boca y me la seco
+
+	2. Sino:
+		1. Continuo
+	
+17. Me cambio de ropa
+	1. Voy a mi cuarto
+	2. Busco la ropa
+	3. Me cambio
+
+18. Estudio
+	1. Elijo el tema para estudiar
+	2. Estudio
+
+19. Me acuesto en la cama
+	1. Destiendo la cama
+
+20. Me duermo

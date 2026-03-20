@@ -1,0 +1,29 @@
+*Cree un algoritmo de como se prepara para ir a su viaje de diversión favorito
+1. Elijo al lugar al que quiero ir
+	1. Si quiero ir a la playa:
+		1. Me preparo para la playa
+
+	2. Sino:
+		1. Me preparo para ir a la montaña
+
+2. Alisto la ropa y zapatos
+	1. Si voy a la playa:
+		1. Alisto ropa y zapatos cómoda para la playa
+
+	2. Sino:
+		1. Alisto ropa y zapatos para estar en la montaña
+
+3. Alisto las cosas para acampar
+	1. Busco mi tienda de acampar, colchón inflable y lampara
+	
+4. Compro lo que vaya a necesitar
+	1. Mientras no haya terminado de comprar lo necesario:
+		1. Sigo revisando la tienda
+
+5. Subo todo al carro
+	1. Primero la ropa
+	2. Después las compras
+	3. Y de último lo de acampar
+
+6. Me dirijo al lugar elegido
+7. Fin
