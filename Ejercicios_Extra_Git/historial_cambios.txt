@@ -1,3 +1,5 @@
+Alejandro Sánchez M.
+
 	En el primer commit "Initial commit", se realizó la creación base del repositorio, con la estructura inicial con los archivos ".git" y "README.md". Esto con el propósito de establecer el punto de partida del proyecto y configurar el control de versiones desde cero.
 
 En el segundo commit "Upload first exercises", se añadieron los archivos de código correspondientes a la primera entrega de ejercicios en la rama "ready-exercises", para establecer el progreso inicial del desarrollo y permitir que los cambios fueran revisados antes de la integración final.
