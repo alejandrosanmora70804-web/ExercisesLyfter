@@ -18,8 +18,8 @@ def is_valid_section(section):
     return True, ""
 
 
-def student_exists(name, section):
-    for student in data.data_students:
+def student_exists(data_students, name, section):
+    for student in data_students:
         if (student["Name"].strip().lower() == name.strip().lower() and student["Section"].strip().upper() == section.strip().upper()):
             return True
     return False
@@ -38,7 +38,7 @@ def get_note(subject):
             print("Invalid input. Please enter a number.")
 
 
-def enter_student_information():
+def enter_student_information(data_students):
     try:
         student_counter = int(input("Enter the number of students: "))
         if student_counter <= 0:
@@ -63,7 +63,7 @@ def enter_student_information():
                 print()
                 print(f"Error: {msg}.")
 
-            if student_exists(name, section):
+            if student_exists(data_students, name, section):
                 print(f"Error: There is already a student named {name} in the section {section.upper()}.")
                 student_counter -= 1
                 continue
@@ -85,20 +85,20 @@ def enter_student_information():
                     }
                 }
 
-            data.data_students.append(student)
+            data_students.append(student)
         
     except Exception as error:
         print(f"An unexpected error ocurred: {error}.")
         return
 
 
-def view_student_information():
-    if not data.data_students:
+def view_student_information(data_students):
+    if not data_students:
         print("There are no registered students.")
         return
 
     print("Student information:")
-    for student in data.data_students:
+    for student in data_students:
         print("-"*60)
         print(f"Name: {student["Name"]}")
         print(f"Section: {student["Section"]}")
@@ -108,13 +108,13 @@ def view_student_information():
         print(f"Sciences note: {student["Notes"]["Sciences_note"]}")
 
 
-def view_the_top_3_students():
-    if not data.data_students:
+def view_the_top_3_students(data_students):
+    if not data_students:
         print("There are no registered students.")
         return
 
     students_with_avg = []
-    for student in data.data_students:
+    for student in data_students:
         average = (student["Notes"]["Spanish_note"]+student["Notes"]["English_note"]
                 +student["Notes"]["Social_note"]
                 +student["Notes"]["Sciences_note"]) / 4
@@ -133,14 +133,14 @@ def view_the_top_3_students():
         print(f"Top {index}: {student["Name"]}, section {student["Section"]} with an average of {student["Average"]}.")
 
 
-def view_average_rating():
-    if not data.data_students:
+def view_average_rating(data_students):
+    if not data_students:
         print("There are no registered students.")
         return
     
     averages = 0
 
-    for student in data.data_students:
+    for student in data_students:
         average_student = (student["Notes"]["Spanish_note"]
                 +student["Notes"]["English_note"]
                 +student["Notes"]["Social_note"]
@@ -148,26 +148,26 @@ def view_average_rating():
         
         averages += average_student
 
-    total_average = averages / len(data.data_students)
+    total_average = averages / len(data_students)
 
     print("Average rating")
     print("-"*60)
     print(f"The average among all students is {total_average}.")
 
 
-def remove_students():
-    if not data.data_students:
+def remove_students(data_students):
+    if not data_students:
         print("There are no registered students.")
         return
     
     remove_student = input("Enter the student's full name: ").strip()
     remove_section = input("Enter the student's section: ").strip().upper()
 
-    for index, student in enumerate(data.data_students):
+    for index, student in enumerate(data_students):
         if remove_student.lower() == student["Name"].lower() and remove_section == student["Section"]:
             confirmation = input("Are you sure you want to eliminate the student?(Yes/No): ").strip()
             if confirmation.lower() == "yes":
-                data.data_students.pop(index)
+                data_students.pop(index)
                 print("Student eliminated.")
             else:
                 print("Operation cancelled.")
@@ -176,8 +176,8 @@ def remove_students():
     print("The student's name does not match any in the record.")
 
 
-def view_failed_students():
-    if not data.data_students:
+def view_failed_students(data_students):
+    if not data_students:
         print("There ar no registered students.")
         return
     
@@ -185,13 +185,13 @@ def view_failed_students():
         "Spanish_note": "Spanish",
         "English_note": "English",
         "Social_note": "Social",
-        "Sciences_notes": "Sciences"
+        "Sciences_note": "Sciences"
     }
 
     failed_found = False
 
     print("Failed students:")
-    for student in data.data_students:
+    for student in data_students:
         failed_subjects = {
             subject: note
             for subject, note in student["Notes"].items()

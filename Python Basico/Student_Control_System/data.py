@@ -1,9 +1,7 @@
 import csv
 
-data_students = []
 
-
-def export_to_csv():
+def export_to_csv(data_students):
     if not data_students:
         print("There are no registered students to export.")
         return
@@ -31,7 +29,7 @@ def export_to_csv():
     print(f"Data exported successfully to 'data_students.csv'.")
 
 
-def import_from_csv():
+def import_from_csv(data_students):
     file_name = input("Enter the filename to import: ").strip()
     if not file_name:
         print("No filename entered.")

@@ -2,6 +2,7 @@ import actions
 import data
 
 def menu_student_control_system ():
+    data_students = []
     option = 0
     while option != 9:
         print("===================================")
@@ -28,32 +29,32 @@ def menu_student_control_system ():
 
         print()
         if option == 1:
-            actions.enter_student_information()
+            actions.enter_student_information(data_students)
 
         elif option == 2:
-            actions.view_student_information()
+            actions.view_student_information(data_students)
 
         elif option == 3:
-            actions.view_the_top_3_students()
+            actions.view_the_top_3_students(data_students)
 
         elif option == 4:
-            actions.view_average_rating()
+            actions.view_average_rating(data_students)
 
         elif option == 5:
-            data.export_to_csv()
+            data.export_to_csv(data_students)
 
         elif option == 6:
-            data.import_from_csv()
+            data.import_from_csv(data_students)
 
         elif option == 7:
-            actions.remove_students()
+            actions.remove_students(data_students)
 
         elif option == 8:
-            actions.view_failed_students()
+            actions.view_failed_students(data_students)
 
         elif option == 9:
             print("Good bye!")
-            exit
+            exit()
         
         else:
             print("Invalid option. please choose a number between 1 and 9.")
